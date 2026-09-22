@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>[Chih-Chun Huang] — AI / Software Engineer Portfolio</title>
-<meta name="description" content="Two deployed computer-vision systems: real-time freeway traffic analytics and a 101-class food image classifier." />
+<meta name="description" content="Three deployed systems: real-time freeway traffic analytics, a 101-class food image classifier, and a SQL-backed production monitoring dashboard." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -232,13 +232,13 @@
 <div class="wrap">
 
   <header>
-    <div class="eyebrow"><span class="bar"></span> PORTFOLIO — 2 DEPLOYED SYSTEMS</div>
-    <h1>[Chih-Chun Huang] builds and ships<br><span class="accent">computer-vision systems.</span></h1>
+    <div class="eyebrow"><span class="bar"></span> PORTFOLIO — 3 DEPLOYED SYSTEMS</div>
+    <h1>[Chih-Chun Huang] builds and ships<br><span class="accent">computer-vision &amp; data systems.</span></h1>
     <p class="lede">
-      Two projects below, both live: a real-time freeway traffic analytics
-      pipeline (YOLO + tracking + a FastAPI dashboard) and a 101-class food
-      image classifier. Everything is deployed and clickable, not just
-      described.
+      Three projects below, all live: a real-time freeway traffic analytics
+      pipeline (YOLO + tracking + a FastAPI dashboard), a 101-class food
+      image classifier, and a SQL-backed production monitoring dashboard.
+      Everything is deployed and clickable, not just described.
     </p>
     <div class="contact-row">
       <a href="mailto:jh2002_01@hotmail.com">jh2002_01@hotmail.com</a>
@@ -319,6 +319,44 @@
         <div class="actions">
           <a class="btn primary" href="https://huggingface.co/spaces/JH-portfolio/foodvision_big" target="_blank" rel="noopener">Live demo →</a>
           <a class="btn" href="https://huggingface.co/spaces/JH-portfolio/foodvision_big/tree/main" target="_blank" rel="noopener">Source code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Production Data Dashboard -->
+  <section class="panel">
+    <div class="panel-top">
+      <span class="panel-name">production_data_dashboard</span>
+      <span class="status-pill"><span class="dot"></span> RUNNING</span>
+    </div>
+    <div class="panel-body">
+      <div class="panel-shot">
+        <img src="assets/production-dashboard-demo.png" alt="Production monitoring dashboard showing live KPIs, per-line utilization and yield, and a work-order table" />
+      </div>
+      <div class="panel-info">
+        <h2>Production Monitoring Dashboard</h2>
+        <p>
+          A factory-floor style dashboard for tracking work orders, inventory,
+          utilization, and yield rate across four production lines, backed by
+          a Microsoft SQL Server schema and rendered as a searchable,
+          sortable live web app.
+        </p>
+        <div class="metrics">
+          <span class="metric"><b>50</b> work orders</span>
+          <span class="metric"><b>MS SQL Server</b> backend</span>
+          <span class="metric"><b>4</b> production lines</span>
+        </div>
+        <div class="tags">
+          <span class="tag">HTML / CSS / JS</span>
+          <span class="tag">Chart.js</span>
+          <span class="tag">Microsoft SQL Server</span>
+          <span class="tag">Data Visualization</span>
+          <span class="tag">Hugging Face Spaces</span>
+        </div>
+        <div class="actions">
+          <a class="btn primary" href="https://huggingface.co/spaces/JH-portfolio/Production_data_dashboard" target="_blank" rel="noopener">Live demo →</a>
+          <a class="btn" href="https://huggingface.co/spaces/JH-portfolio/Production_data_dashboard/tree/main" target="_blank" rel="noopener">Source code</a>
         </div>
       </div>
     </div>
